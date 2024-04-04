@@ -1,0 +1,175 @@
+/* App.css */
+body {
+  width: 100%;
+  background: #8D99AF;
+  background-position:fixed; ;
+}
+
+.portfolio {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;    
+  background-color: rgb(246, 244, 244);
+  padding: 4%;
+  border-radius: 10px;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  width: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+.navbar-nav {
+  width: 40%;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 100px;
+}
+
+.navbar-nav ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.navbar-nav li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: rgb(2, 2, 2); /* Added color here for consistency */
+}
+
+.navbar-nav ul li a:hover {
+background-color: #b46dfc;
+border-radius: 3px;
+
+}
+
+
+
+/* Main */
+.main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  border-radius: 10%;
+  padding: 5px;
+margin-top: 45px;
+  width: 200px;
+  height: 200px;
+  margin-right: 25px;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+.info {
+  text-align: left;
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info span {
+  width: 100%;    
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+.cursor-text {
+  background-color: #e9d3ff;
+  color: #0f0f0f;
+}
+
+.target {
+  margin: 1% 0;
+  color: black;
+  
+  
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions p {
+  width: 30rem;
+  text-align: center;
+  margin: 10px auto;
+  font-family: Times, serif, arial, helvetica;
+  font-size: 16px;
+}
+
+.actions button {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #b46dfc;
+  border-radius: 5px;
+  padding: 10px;
+  border: 0px solid #ceb7e6;
+  color: white;
+}
+
+.actions button:hover {
+  background-color: rgb(60, 166, 228);
+}
+
+.navbar-brand span{
+  color: red;
+  margin-left: 10px;
+}
+
+.ac{
+  color: red;
+}
+
+/* About.css */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-image {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.about-content h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.about-content p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+

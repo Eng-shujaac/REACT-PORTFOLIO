@@ -1,0 +1,45 @@
+.ac{
+    color: red;
+}
+
+/* About.css */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about-image {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .about-content h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .about-content p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+ .About{
+    width: 20%;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 10px;
+    margin-top: 100px;
+ }  
